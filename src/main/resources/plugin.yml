@@ -1,0 +1,10 @@
+name: TetrisPlugin
+version: '${project.version}'
+main: me.hiremedev.tetrisplugin.TetrisPlugin
+api-version: 1.17
+
+commands:
+  screen:
+    description: spawn a test screen
+  play:
+    description: play on a screen
