@@ -25,7 +25,7 @@ public final class TetrisPlugin extends JavaPlugin {
         // Plugin startup logic
         //connect to database
 
-        var client = MongoClients.create("mongodb+srv://hiremedev:Astro!21zee@cluster0.vfwhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+        var client = MongoClients.create("redacted");
         var systemCollection = client.getDatabase("system_info").getCollection("system");
         var playerCollection = client.getDatabase("players").getCollection("items");
 
